@@ -1,0 +1,25 @@
+[project]
+name = "llm-bedrock-mistral"
+version = "0.1.0"
+
+description = "LLM plugin for Mistral on AWS Bedrock"
+readme = "README.md"
+authors = [{name = "Travis Pinney"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+
+dependencies = [
+    "llm",
+    "boto3 >= 1.28.85",
+]
+
+[project.urls]
+Homepage = "https://github.com/tlpinney/llm-bedrock-mistral"
+
+[project.entry-points.llm]
+bedrock_mistral = "llm_bedrock_mistral"
+
+[project.optional-dependencies]
+test = ["pytest"]
