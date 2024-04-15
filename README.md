@@ -2,7 +2,6 @@
 
 [![PyPI](https://img.shields.io/pypi/v/llm-bedrock-mistral.svg)](https://pypi.org/project/llm-bedrock-mistral/)
 [![Changelog](https://img.shields.io/github/v/release/tlpinney/llm-bedrock-mistral?include_prereleases&label=changelog)](https://github.com/tlpinney/llm-bedrock-mistral/releases)
-[![Tests](https://github.com/tlpinney/llm-bedrock-mistral/workflows/Test/badge.svg)](https://github.com/tlpinney/llm-bedrock-mistral/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/tlpinney/llm-bedrock-mistral/blob/main/LICENSE)
 
 Plugin for [LLM](https://llm.datasette.io/) adding support for Mistral models in Amazon Bedrock
