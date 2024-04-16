@@ -52,7 +52,7 @@ llm chat -m bm8
 
 Use like this:
 ```bash
-llm -m bm7 -o max_tokens 20 -o temperature 0 "Return the alphabet. Be succint."
+llm -m bm7 -o max_tokens 20 -o temperature 0 "Return the alphabet. Be succinct."
  Here is the alphabet in English: A, B, C, D, E, F,
 ```
 
